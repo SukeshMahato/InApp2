@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sukesh.inapp.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fruits"
+        android:id="@+id/t1"
+        android:textSize="25dp"
+        />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="58dp"
+        android:weightSum="1"
+        android:id="@+id/fruitgroup"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fruit1 100"
+            android:id="@+id/fruit1"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fruit2 200"
+            android:id="@+id/fruit2"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:textSize="25dp"
+             />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fruit3 300"
+            android:id="@+id/fruit3"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:textSize="25dp"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flower"
+        android:id="@+id/t2"
+        android:layout_below="@+id/fruitgroup"
+        android:textSize="25dp"
+        />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="58dp"
+        android:weightSum="1"
+        android:id="@+id/flowergroup"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="flower1 100"
+            android:id="@+id/flower1"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="flower2 200"
+            android:id="@+id/flower2"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:textSize="25dp"
+             />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="flower3 300"
+            android:id="@+id/flower3"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:textSize="25dp"
+             />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegetables"
+        android:id="@+id/t3"
+        android:layout_below="@+id/flowergroup"
+        android:textSize="25dp"
+        />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+        android:layout_marginTop="58dp"
+        android:weightSum="1"
+        android:id="@+id/vegeGroup"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="veg1 100"
+            android:id="@+id/veg1"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="veg2 200"
+            android:id="@+id/vg2"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:textSize="25dp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="veg3 300"
+            android:id="@+id/veg3"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:textSize="25dp"
+             />
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Out"
+        android:id="@+id/checkout"
+        android:layout_below="@+id/vegeGroup"
+        />
+
+
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>
